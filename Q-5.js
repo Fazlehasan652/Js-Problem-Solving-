@@ -1,7 +1,8 @@
 //Problem 5:
 //Write a function mergeArrays that takes in two arrays of integers and returns a new array that contains all the elements from both arrays, sorted in ascending order.
-// const ar1 = [1, 3, 5, 7];
-// const ar2 = [2, 4, 6, 8];
+
+const ar1 = [1, 3, 5, 7];
+const ar2 = [2, 4, 6, 8];
 
 // Primitive Process
 
@@ -29,8 +30,10 @@ function mergeSortedArray(a, b) {
   return a;
 }
 
-let res = mergeSortedArray(a, b);
-// console.log(res);
+let res1 = mergeSortedArray(a, b);
+console.log(res1);
+let res2 = mergeSortedArray(ar1, ar2);
+console.log(res2);
 
 //.................................................................................
 // Function to merge two arrays and sort the result
